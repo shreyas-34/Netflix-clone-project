@@ -1,0 +1,49 @@
+<!-- Actual structure with all sections connected -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix India – Watch TV Shows Online, Watch Movies Online</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/hero.css">
+    <link rel="stylesheet" href="styles/section.css">
+    <link rel="stylesheet" href="styles/footer.css"> -->
+</head>
+
+<body>
+    <div class="main">
+        <div id="nav"></div>
+        <div id="hero"></div>
+    </div>
+    <div id="trending"></div>
+    <div class="mid">
+
+        <div id="reasons"></div>
+        <div id="faq"></div>
+    </div>
+    <div id="bottom"></div>
+    <div id="footer"></div>
+
+    <script>
+        function loadComponent(id, file) {
+            fetch(file)
+                .then(res => res.text())
+                .then(data => document.getElementById(id).innerHTML = data)
+                .catch(err => console.error(`Error loading ${file}:`, err));
+        }
+
+        loadComponent("nav", "components/nav.html");
+        loadComponent("hero", "components/hero.html");
+        loadComponent("trending", "components/trending.html");
+        loadComponent("reasons", "components/reasons.html");
+        loadComponent("faq", "components/faq.html");
+        loadComponent("bottom", "components/bottom-signup.html");
+        loadComponent("footer", "components/footer.html");
+    </script>
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
