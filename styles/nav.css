@@ -1,0 +1,34 @@
+.main nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    margin: auto;
+    position: relative;
+    max-width: 85vw;
+    z-index: 10;
+}
+
+nav img {
+    position: relative;
+    z-index: 10;
+    font-weight: 400;
+    width: 140px;
+    size: 16px;
+
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+
+.start {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+
+}
+

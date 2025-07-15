@@ -1,0 +1,138 @@
+.content>:nth-child(1) {
+    color: white;
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 24px;
+    padding: 19px 150px 10px;
+}
+
+.panel {
+    display: flex
+;
+    margin-left: 100px;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow-y: visible;
+    overflow-x: scroll;
+    flex-direction: row;
+    scrollbar-width: none;
+}
+
+
+
+.panel>:nth-child(1) {
+
+    background-image: url(https://occ-0-4994-2164.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABUhpdEpzHYfnPnHNbojySI_GMO9oaeZoaj-1hsW_orVNftH6TbH0sOBM4T-iixC82-cNn58AH3wyfEPPPIqeQ12zNja6KT3C9ojoXJLeQRs61XhQQYMxg0uicDwrwJITVsfC.webp?r=27c);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+
+
+}
+
+.panel>:nth-child(2) {
+    background-image: url(https://occ-0-4994-2164.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABYUCgDPIk4LvnEw_j-dC5ca65oxm4yP2Z7RFKlRcN6WYzCwNA4MhTNqTRrSAK9zND3cSjrYEpbQculmTCXPD09ZbvdCosdbuOjc.webp?r=062);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.panel>:nth-child(3) {
+    background-image: url(https://occ-0-4994-2164.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABYGL4_ns5MGTE5-Yd3ZQVB5apyY9yxQ39lxjT_27ehdoGzrxRwNc4osgXEeifcv9yO_MgMySL-p6hMxtQZnIEkZmyglIJ7wm7ik.webp?r=c23);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.panel>:nth-child(4) {
+    background-image: url(https://occ-0-4994-2164.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABZ2Btia34ViHOdbGThR2xD0XYVD9vkdTkUULeET8PcHeq12ebMOJyLaTD1yS26NaRfUqDMknk2XnomOCg78WEKeN3VEDdOKzFRayBGveEZ-MeOaVD-v0z5P25idICKgt-nXX.webp?r=a1c);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.panel>:nth-child(5) {
+    background-image: url(https://occ-0-4994-2164.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABace3lfDYdvDP5GhS8n6Djz3jW0sjZtFLOYIGR9fQQS48CE1DC8PQ8-DlTy5qKPDPjeQcfX7AVJzFKz2zW2lsbUq5yiYN0g1NmTRk6F4dajOtAdVKLn_bBW6tGbQr22e74Mx.webp?r=fb9);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.panel>:nth-child(6) {
+    background-image: url(https://occ-0-4994-2164.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABWtQdcUd4n6VKz6HTm_IbI2cOq0VDU7fDQpomIXBLuCYqtJ4j8hj2pz7j6spnX2osjRgTMJQ9xkMieYZWqC6xC8G4tGlTLJBm3I.webp?r=cc2);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.panel>:nth-child(1)>span {
+    position: absolute;
+    top: 121px;
+    left: -10px;
+    font-size: 80px;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -webkit-text-stroke: 1px white;
+    z-index: 2;
+}
+
+.panel>:nth-child(2)>span {
+    position: absolute;
+    top: 121px;
+    left: -10px;
+    font-size: 80px;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -webkit-text-stroke: 1px white;
+    z-index: 2;
+}
+
+.panel>:nth-child(3)>span {
+    position: absolute;
+    top: 121px;
+    left: -10px;
+    font-size: 80px;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -webkit-text-stroke: 1px white;
+    z-index: 2;
+}
+
+.panel>:nth-child(4)>span {
+    position: absolute;
+    top: 121px;
+    left: -10px;
+    font-size: 80px;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -webkit-text-stroke: 1px white;
+    z-index: 2;
+}
+
+
+
+.page {
+    padding: 140px 120px 79px 35px;
+    background-color: #e50914;
+    border: 2px solid black;
+    border-radius: 10px;
+    transition: all 0.2s ease-out;
+    cursor: pointer;
+
+
+}
+
+.page:hover {
+    transform: scale(1.08);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    z-index: 5;
+}

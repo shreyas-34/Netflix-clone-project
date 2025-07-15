@@ -1,0 +1,78 @@
+
+.faq>:nth-child(1) {
+    color: white;
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 24px;
+    padding: 19px 130px 10px;
+}
+
+.faqpanel {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-bottom: 60px;
+
+}
+
+.faqbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
+
+}
+
+.faqbox {
+    background-color: #2d2d2d;
+    padding: 20px;
+    width: 80vw;
+    height: 44px;
+    border: 2px solid black;
+    text-overflow: clip;
+    position: relative;
+    transition: all 0.2s ease-out;
+    cursor: pointer;
+}
+
+.faqbox:hover {
+
+    background-color: #5e5c5ca5;
+    z-index: 5;
+
+
+}
+
+.faqbox>:nth-child(1) {
+    color: white;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 24px;
+
+}
+
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.bottom>:nth-child(1) {
+    color: white;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 16px;
+
+
+}

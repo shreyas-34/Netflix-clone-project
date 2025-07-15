@@ -1,0 +1,51 @@
+
+.footer>ul {
+    color: white;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.footer {
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 100px;
+
+
+    color: white;
+}
+
+ul {
+
+    list-style: none;
+    line-height: 30px;
+    padding-bottom: 40px;
+}
+
+li {
+    font-size: 14px;
+}
+
+a {
+    color: #a5a1a1;
+}
+
+.bt-bottom {
+    position: absolute;
+    left: 150px;
+}
+
+.bot {
+    color: #a5a1a1;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 16px;
+    padding-top: 80px;
+    padding-left: 150px;
+}

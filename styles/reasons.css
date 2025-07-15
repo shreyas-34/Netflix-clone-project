@@ -1,0 +1,67 @@
+
+.mid>:nth-child(1) {
+    color: white;
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 24px;
+    padding: 19px 150px 10px
+}
+
+.qpanel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.qbox {
+    background-image: linear-gradient(to bottom right, #1a2143, #210e17);
+    padding: 20px;
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-overflow: clip;
+    position: relative;
+}
+
+.qbox>:nth-child(1) {
+    padding-bottom: 10px;
+    font-size: 24px;
+    color: white;
+}
+
+.qbox>:nth-child(2) {
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.7);
+
+}
+
+.lang {
+    filter: invert(1);
+    margin-left: 10px;
+
+    vertical-align: middle;
+    height: 14px;
+    width: auto;
+    position: absolute;
+    left: 0;
+}
+
+.drop {
+    margin-right: -16px;
+    margin-left: 20px;
+    vertical-align: middle;
+    height: 14px;
+    width: auto;
+}
+
+.qbox>:nth-child(3) {
+    position: absolute;
+    bottom: 20px;
+    right: 16px;
+}
