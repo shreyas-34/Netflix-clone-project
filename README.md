@@ -1,73 +1,40 @@
-# Netflix Clone
+# 🎬 Netflix Clone
 
-A responsive **Netflix India clone** built using HTML, CSS, and JavaScript. This project demonstrates component-based structure, modular styling, and interactive elements such as sliders and FAQ sections.
+A responsive Netflix India-inspired landing page built with HTML, CSS, and JavaScript.
 
-## Project Structure
+![Netflix](https://img.shields.io/badge/Netflix-Clone-E50914?style=for-the-badge&logo=netflix&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-- `index.html` — Main entry point of the app
-- `components/` — Folder for reusable HTML sections
-- `navbar.html` — Navigation bar
-- `hero.html` — Hero banner section
-- `trending.html` — Trending Now panel
-- `top-rated.html` — Top Rated content
-- `originals.html` — Originals section
-- `footer.html` — Footer with links and contact info
-- `styles/` — Folder for CSS files
-- `main.css` — Global styles
-- `navbar.css` — Navbar styles
-- `hero.css` — Hero section styles
-- `section.css` — Styles for content sections
-- `footer.css` — Footer styles
-- `scripts/` — Folder for JavaScript files
-- `main.js` — Core JS functionality
-- `navbar.js` — Navbar interactivity
-- `slider.js` — Content sliders functionality
-- `assets/` — Folder for media files (images, videos, icons)
-- `logo.png`
-- `bg.jpg`
-- `sample-video.mp4`
+## ✨ Details
 
-## Features
+- `index.html` is the component-based entry point. It loads page sections from `components/`.
+- `main.html` contains a standalone page layout.
+- The page includes a hero section, trending titles, feature cards, FAQs, signup area, and footer.
+- Run the project from a local web server so the component files can be loaded with `fetch`.
 
-- Fully responsive layout like Netflix India  
-- Component-based structure for easier maintenance  
-- Trending, Top Rated, Originals sections with panels  
-- FAQ section with expandable answers  
-- Hero section with email subscription input  
-- Reusable CSS and JS for modularity
+## 📁 Project Structure
 
-## Usage
+- `asset/` — Logo, background image, icons, and artwork
+- `components/` — Reusable HTML sections
+- `scripts/` — JavaScript
+- `styles/` — CSS for the page and its sections
+- `index.html` — Component-based page
+- `main.html` — Standalone page
 
-1. Clone the repository:
+## 🚀 Run Locally
+
+From the project directory, start a local server:
 
 ```bash
-git clone https://github.com/yourusername/netflix-clone.git
-```
-
-2. Open `main.html` in your browser.
-
-3. (Optional) Serve it with a local server for full functionality:
-
-```bash
-# Python 3
 python -m http.server 8000
 ```
-Then visit `http://localhost:8000`.
 
-## Technologies Used
+Then open `http://localhost:8000/` in your browser.
 
-- HTML5  
-- CSS3 (Flexbox/Grid)  
-- JavaScript (ES6)
+## 🧰 Technologies
 
-## Notes
-
-- Component HTML files are loaded dynamically via JavaScript.  
-- CSS is modularized for each section (navbar, hero, footer, etc.)  
-- Assets are stored separately in the `assets` folder.
-
-## Contact
-
-
-**Author:** Shreyas C P  
-**GitHub:** [https://github.com/Shreyascp-716](https://github.com/Shreyascp-716)
+- HTML5
+- CSS3
+- JavaScript
